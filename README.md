@@ -1,10 +1,7 @@
 #### yusam-hub/json-ext
 
-    "php": "^7.4|^8.0|^8.1|^8.2"
+    "php": ">=7.4 <9.0"
 
-#### tests
-
-    sh phpinit
 
 #### setup
 
@@ -19,5 +16,6 @@
     "require": {
         ...
         "yusam-hub/json-ext": "dev-master"
+        "yusam-hub/json-ext": "^1.0"
         ...
     }
